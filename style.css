@@ -7,6 +7,7 @@ color:white;
 h1{
 color:grey;
 font-family:verdana;
+display:block;
 }
 
 .maindiv {
@@ -20,6 +21,16 @@ font-family:verdana;
     margin-right: auto;
 }
 
+table td
+{
+    padding-bottom: 15px;
+}
+
+.label
+{
+    width: 100px;
+}
+
 #principal{
 background-color:white;
 border:1px solid grey;
@@ -27,8 +38,8 @@ border-radius:3px;
 }
 
 #years {
-background-color:lightgrey;
-border:none;
+background-color:white;
+border:1px solid grey;
 width:45px;
 padding: 1px;
 border-radius:3px;
@@ -40,8 +51,9 @@ border-radius:3px;
 }
 
 .btn{
-    background-color:grey;
+    background-color:blue;
     color: white;
+    width:280px;
     padding: 6px;
     border-radius:6px;
     border: none;
